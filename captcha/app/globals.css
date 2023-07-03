@@ -48,10 +48,15 @@ button{
 .captcha-images{
   background: #fff;
   width: 300px;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap:2px;
+  gap:0px;
   align-items: center;
+}
+
+.captcha-images > div{
+  border: 1px solid red;;
 }
 .captcha-images > div.selected{
   position:relative;
